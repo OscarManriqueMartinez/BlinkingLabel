@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AppInfo {
+public class AppInfo {
     
     
     static func getVersion() -> String {
