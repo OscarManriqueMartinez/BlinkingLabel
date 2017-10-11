@@ -1,9 +1,9 @@
-
-  AppInfo.swift
-  ___PROJECTNAME___
-
-  Created by Oscar Manrique on ___DATE___.
-  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
+//
+//  AppInfo.swift
+//  ___PROJECTNAME___
+//
+//  Created by Oscar Manrique on ___DATE___.
+//  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 
 
 import UIKit
