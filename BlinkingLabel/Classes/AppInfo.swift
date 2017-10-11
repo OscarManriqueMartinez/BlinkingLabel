@@ -11,21 +11,21 @@ import UIKit
 public class AppInfo {
     
     
-    static func getVersion() -> String {
+    public static func getVersion() -> String {
         if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String {
             return version
         }
         return ""
     }
     
-    static func getBuild() -> String {
+    public static func getBuild() -> String {
         if let version = Bundle.main.infoDictionary?[kCFBundleVersionKey as String] as? String {
             return version
         }
         return ""
     }
     
-    static func bundleId() -> String{
+    public static func bundleId() -> String{
         
         if let bundleId = Bundle.main.bundleIdentifier {
             return bundleId
